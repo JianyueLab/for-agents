@@ -2,7 +2,6 @@ version: '3'
 
 tasks:
   default:
-    desc: "列出所有可运行的任务"
     cmds:
       - task --list
     silent: true
