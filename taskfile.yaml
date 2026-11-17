@@ -1,0 +1,18 @@
+version: '3'
+
+tasks:
+  default:
+    desc: "列出所有可运行的任务"
+    cmds:
+      - task --list
+    silent: true
+
+  generate:guidance:
+    desc: "根据指导文件的开头说明生成 guidance/AGENTS.md"
+    cmds:
+      - python3 scripts/generate_guidance_agentsmd.py
+
+  check:guidance:
+    desc: "检查 guidance/AGENTS.md 是否与指导文件一致"
+    cmds:
+      - python3 scripts/generate_guidance_agentsmd.py --check
