@@ -20,6 +20,10 @@
 当你需要操作 Git 时，请参考此说明
 对于 `.gitignore` 以及 `.gitattributes` 的编写，也请参考此说明
 
+## [nix.md](./nix.md)
+
+项目使用 Nix 进行环境管理，当你需要为项目配置或修改 Nix、devenv 相关内容时，请参考此说明
+
 ## [taskfile.md](./taskfile.md)
 
-当你需要为项目配置 Taskfile、定义任务、编写自动化时，请参考此说明
+项目使用 Taskfile 作为任务运行的统一入口，当你需要为项目配置 Taskfile、定义任务、编写自动化时，请参考此说明

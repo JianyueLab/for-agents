@@ -1,5 +1,5 @@
 ---
-当你需要为项目配置 Taskfile、定义任务、编写自动化时，请参考此说明
+项目使用 Taskfile 作为任务运行的统一入口，当你需要为项目配置 Taskfile、定义任务、编写自动化时，请参考此说明
 ---
 
 项目使用 [taskfile](https://taskfile.dev/) 进行工作，如果本地发现没有安装 `task` 命令，请明确提示开发者是否进行安装
@@ -40,7 +40,7 @@ default:
 - test[:xxx] 运行全部或部分测试
 - generate[:xxx] 代码生成
 - clean 清理构建产物与临时文件
-- devenv[:xxx] 本地开发环境管理
+- devenv[:xxx] 本地开发环境管理，参考 Nix 部分
 - migrate[:xxx] 执行数据或配置迁移
 - sync[:xxx] 同步资源、配置或依赖
 - package 打包

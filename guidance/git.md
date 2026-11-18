@@ -135,10 +135,14 @@ PR 的标题编写格式要求与 Commit Message 的 `header` 一致
 - 常见操作系统（macOS、Linux、Windows）的特殊文件
 - 对 IDE 多余文件的排除，应当被包含的配置文件除外，`/.idea` 整个排除
 - 常见的日志与缓存文件
-- 敏感信息以及生产配置文件
-- 语言和工具链应当排除的内容
-- 应当排除的中间产物
+- Nix Store
+- 本地构建缓存
+- 本地生成的临时文件
+- 开发者个人配置
+- 包含真实密钥的本地文件
 - `CLAUDE.md`
+
+不要忽略 `flake.lock`
 
 ## .gitattributes 文件
 
