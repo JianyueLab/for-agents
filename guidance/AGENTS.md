@@ -10,6 +10,10 @@
 
 当你需要编写或修改 CI 流程时，请参考此说明
 
+## [codestyle.md](./codestyle.md)
+
+这份说明规范了你在编写代码时需要遵守的内容
+
 ## [document.md](./document.md)
 
 当你需要编写文档（包括README.md）时，请参考此说明
