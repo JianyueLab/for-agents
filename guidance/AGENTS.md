@@ -6,6 +6,10 @@
 
 当你需要为项目创建或修改 AGENTS.md 文件时，请参考此说明
 
+## [ci.md](./ci.md)
+
+当你需要编写或修改 CI 流程时，请参考此说明
+
 ## [document.md](./document.md)
 
 当你需要编写文档（包括README.md）时，请参考此说明
