@@ -92,16 +92,16 @@ type 必须是以下几种类型之一：
 
 `footer` 部分用于在需要的时候扩展本次提交的作用，如关闭 Issue、关联 PR、跳过 CI 等
 
-| **语法**           | **作用**                 | **示例**                        |
-|--------------------|--------------------------|---------------------------------|
-| `Resolves #123`    | 解决并关闭关联的 Issue   | `Resolves #123`                 |
-| `Refs #123`        | 关联 Issue，但不自动关闭 | `Refs #123`                     |
-| `Related to #123`  | 声明相关 Issue           | `Related to #123`               |
-| `See PR #123`      | 引用关联的 PR            | `See PR #123`                   |
-| `Co-authored-by:`  | 声明共同作者             | `Co-authored-by: Name <email>`  |
-| `Signed-off-by:`   | 添加签署者信息           | `Signed-off-by: Name <email>`   |
-| `BREAKING CHANGE:` | 声明不兼容变更及其影响   | `BREAKING CHANGE: ...`          |
-| `[skip ci]`        | 请求 CI 跳过本次提交     | `docs: update README [skip ci]` |
+| **语法**           | **作用**                 | **示例**                       |
+|--------------------|--------------------------|--------------------------------|
+| `Resolves #123`    | 解决并关闭关联的 Issue   | `Resolves #123`                |
+| `Refs #123`        | 关联 Issue，但不自动关闭 | `Refs #123`                    |
+| `Related to #123`  | 声明相关 Issue           | `Related to #123`              |
+| `See PR #123`      | 引用关联的 PR            | `See PR #123`                  |
+| `Co-authored-by:`  | 声明共同作者             | `Co-authored-by: Name <email>` |
+| `Signed-off-by:`   | 添加签署者信息           | `Signed-off-by: Name <email>`  |
+| `BREAKING CHANGE:` | 声明不兼容变更及其影响   | `BREAKING CHANGE: ...`         |
+| `[skip ci]`        | 请求 CI 跳过本次提交     | `[skip ci]`                    |
 
 ## Branch
 
