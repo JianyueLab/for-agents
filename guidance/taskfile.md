@@ -23,9 +23,9 @@ taskfile 统一使用 `taskfile.yaml` 作为文件名，放置在项目根目录
 
 ```yaml
 default:
-  cmds:
-    - task --list
-  silent: true
+    cmds:
+        - task --list
+    silent: true
 ```
 
 下面的 task 不是必要的，但当你需要编写对应功能的时候，请参考以下名称

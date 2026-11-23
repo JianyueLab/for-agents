@@ -6,7 +6,6 @@ import sys
 from pathlib import Path
 from urllib.parse import quote
 
-
 GUIDANCE_DIRECTORY = Path(__file__).resolve().parent.parent / "guidance"
 
 
