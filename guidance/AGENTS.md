@@ -19,6 +19,10 @@
 当你需要编写文档（包括README.md）时，请参考此说明
 对于 AGENTS.md 请参考[agentsmd.md](./agentsmd.md)而不是本说明
 
+## [editconfig.md](./editconfig.md)
+
+当你需要编写 `.editconfig` 文件时，请参考此说明
+
 ## [git.md](./git.md)
 
 当你需要操作 Git 时，请参考此说明
