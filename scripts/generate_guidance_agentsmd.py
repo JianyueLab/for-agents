@@ -18,7 +18,7 @@ def read_description(path: Path) -> str:
 
     for index, line in enumerate(lines[1:], start=1):
         if line.strip() == "---":
-            description = "\n".join(lines[1:index]).strip()
+            description = "\n\n".join(lines[1:index]).strip()
             if not description:
                 raise ValueError(f"{path}: 开头说明不能为空")
             return description

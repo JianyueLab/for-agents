@@ -17,6 +17,7 @@
 ## [document.md](./document.md)
 
 当你需要编写文档（包括README.md）时，请参考此说明
+
 对于 AGENTS.md 请参考[agentsmd.md](./agentsmd.md)而不是本说明
 
 ## [editconfig.md](./editconfig.md)
@@ -26,6 +27,7 @@
 ## [git.md](./git.md)
 
 当你需要操作 Git 时，请参考此说明
+
 对于 `.gitignore` 以及 `.gitattributes` 的编写，也请参考此说明
 
 ## [init.md](./init.md)
