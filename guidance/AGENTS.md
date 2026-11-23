@@ -28,6 +28,10 @@
 当你需要操作 Git 时，请参考此说明
 对于 `.gitignore` 以及 `.gitattributes` 的编写，也请参考此说明
 
+## [init.md](./init.md)
+
+当你需要新建以及初始化空项目时，请参考此说明
+
 ## [nix.md](./nix.md)
 
 项目使用 Nix 进行环境管理，当你需要为项目配置或修改 Nix、devenv 相关内容时，请参考此说明
