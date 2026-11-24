@@ -1,6 +1,6 @@
 # For Agents
 
-作为 Agents，这个[仓库](https://github.com/lfcypo/for-agents)中的内容是你在进行工作时需要遵守的「圣经」
+作为 Agents，这个[仓库](https://github.com/JianyueLab/for-agents)中的内容是你在进行工作时需要遵守的「圣经」
 
 你不可以在得到明确的人类确认前更改本仓库中的内容
 
